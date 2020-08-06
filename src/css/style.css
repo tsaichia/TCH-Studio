@@ -1,0 +1,133 @@
+#app {
+height:100vh;
+width: 100vw;
+}
+
+#home a:hover {
+	text-decoration: none;
+	outline: none;
+}
+
+#about {
+  height: 100%;
+  position: absolute;
+  pointer-events: none;
+}
+
+@media (any-pointer: fine) {
+	.cursor {
+		display: block;
+	}
+	.cursor__inner {
+		z-index: 9999;
+		pointer-events: none;
+		position: absolute;
+		mix-blend-mode: difference;
+    border-radius: 50%;
+    transition: 0.1s;
+	}
+	.cursor__inner--circle {
+		width: 30px;
+		height: 30px;
+		border: 1px solid #fff;
+  }
+  
+}
+
+
+
+#kc {
+  z-index: 10 !important;
+}
+
+
+
+.bg1 {
+	background-image: url(../img/1.jpg);
+}
+.bg2 {
+	background-image: url(../img/2.jpg);
+}
+.bg3 {
+	background-image: url(../img/3.jpg);
+}
+.bg4 {
+	background-image: url(../img/4.jpg);
+}
+.bg5 {
+	background-image: url(../img/5.jpg);
+}
+.bg6 {
+	background-image: url(../img/6.jpg);
+}
+.bg7 {
+	background-image: url(../img/7.jpg);
+}
+.bg8 {
+	background-image: url(../img/8.jpg);
+}
+.bg9 {
+	background-image: url(../img/9.jpg);
+}
+.bg10 {
+	background-image: url(../img/10.jpg);
+}
+.bg11 {
+	background-image: url(../img/11.jpg);
+}
+.bg12 {
+	background-image: url(../img/12.jpg);
+}
+.bg13 {
+	background-image: url(../img/13.jpg);
+}
+.bg14 {
+	background-image: url(../img/14.jpg);
+}
+.bg15 {
+	background-image: url(../img/15.jpg);
+}
+
+/* 連結小動畫 */
+.menu-left a {
+  display:inline-block;
+  position: relative;
+  padding-bottom: 0.1px;
+  transition: color 0.35s ease;
+}
+
+/* 定位在左下角 */
+.menu-left a::before {
+  content:'';
+  width: 0;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: width 0.35s ease;
+}
+
+.menu-left a:hover::before {
+  width: 100%;
+  background:black;
+}
+
+.menu-left a::after {
+  content:'';
+  width: 0;
+  height: 1px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background:black;
+  transition: width 0.35s ease;
+}
+
+.menu-left a:hover::after {
+  width: 100%;
+  background:transparent;
+}
+
+.hooper-list{
+  height: 92% !important;
+}
