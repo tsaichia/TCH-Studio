@@ -169,7 +169,7 @@ export default {
   background-size: cover;
   background-position: 50% 50%;
   height: 25vw;
-  transition: 1s;
+  transition: 0.8s;
 }
 
 .graphic__column__img:hover {
@@ -178,6 +178,7 @@ export default {
   background-size: cover;
   background-position: 50% 50%;
   height: 25vw;
+  transform: translateY(-0.5rem);
 }
 
 .graphic__column__img:nth-child(odd) {
