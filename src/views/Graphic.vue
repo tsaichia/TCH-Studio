@@ -10,6 +10,53 @@
         </b-col>
       </b-row>
 
+        <div class="graphic__columns">
+          <div class="graphic__column">
+            <div class="graphic__column__img bg2"></div>
+            <div class="graphic__column__img bg6"></div>
+            <div class="graphic__column__img bg13"></div>
+            <div class="graphic__column__img bg14"></div>
+            <div class="graphic__column__img bg5"></div>
+            <div class="graphic__column__img bg6"></div>
+            <div class="graphic__column__img bg7"></div>
+            <div class="graphic__column__img bg8"></div>
+            <div class="graphic__column__img bg9"></div>
+          </div>
+          <div class="graphic__column graphic__column--bottom">
+            <div class="graphic__column__img bg3"></div>
+            <div class="graphic__column__img bg11"></div>
+            <div class="graphic__column__img bg1"></div>
+            <div class="graphic__column__img bg15"></div>
+            <div class="graphic__column__img bg14"></div>
+            <div class="graphic__column__img bg13"></div>
+            <div class="graphic__column__img bg12"></div>
+            <div class="graphic__column__img bg3"></div>
+            <div class="graphic__column__img bg15"></div>
+          </div>
+          <div class="graphic__column">
+            <div class="graphic__column__img bg7"></div>
+            <div class="graphic__column__img bg4"></div>
+            <div class="graphic__column__img bg9"></div>
+            <div class="graphic__column__img bg11"></div>
+            <div class="graphic__column__img bg5"></div>
+            <div class="graphic__column__img bg3"></div>
+            <div class="graphic__column__img bg2"></div>
+            <div class="graphic__column__img bg1"></div>
+            <div class="graphic__column__img bg5"></div>
+          </div>
+          <div class="graphic__column graphic__column--bottom">
+            <div class="graphic__column__img bg1"></div>
+            <div class="graphic__column__img bg2"></div>
+            <div class="graphic__column__img bg3"></div>
+            <div class="graphic__column__img bg7"></div>
+            <div class="graphic__column__img bg4"></div>
+            <div class="graphic__column__img bg6"></div>
+            <div class="graphic__column__img bg5"></div>
+            <div class="graphic__column__img bg8"></div>
+            <div class="graphic__column__img bg10"></div>
+          </div>
+        </div><!--/columns-->
+
         <!-- <div class="col-6 col-lg-3">
           <a class="image-popup-no-margins" href="https://images.unsplash.com/photo-1596474846859-d993c83b8cc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2767&q=80">
             <div class="view">
@@ -20,7 +67,7 @@
             </div>
           </a>
         </div> -->
-
+<!--
       <div class="d-flex mt-5 mb-5 m-auto animate__animated animate__fadeInDown">
           <div class="row d-flex justify-content-center">
 
@@ -64,7 +111,7 @@
                   </div>
 
           </div>
-      </div>
+      </div> -->
 
     </b-container>
   </div>
@@ -92,9 +139,53 @@ export default {
 </script>
 
 <style scoped>
-.box {
-  height: 20vh;
-  width: 20vw;
+
+.graphic__columns {
+  grid-area: 1 / 1 / 2 / 2;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top:40%;
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: 100%;
+  grid-gap: 1.5rem;
+  padding: 0 8vw;
+}
+
+.graphic__column {
+  position: relative;
+  align-self: start;
+}
+
+.graphic__column--bottom {
+  align-self: auto;
+}
+
+.graphic__column__img {
+  width: 100%;
+  opacity: 0.4;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 25vw;
+  transition: 1s;
+}
+
+.graphic__column__img:hover {
+  width: 100%;
+  opacity: 1;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 25vw;
+}
+
+.graphic__column__img:nth-child(odd) {
+  height: 30vw;
+}
+
+.graphic__column__img:not(:last-child) {
+  margin-bottom: 1.5rem;
 }
 
 .pic3 {
