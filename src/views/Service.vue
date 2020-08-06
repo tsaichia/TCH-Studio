@@ -10,9 +10,12 @@
         </b-col>
       </b-row>
 
-      <div class=" d-flex mt-5 mb-5 m-auto animate__animated animate__fadeInDown">
+      <div class="d-flex mt-5 mb-5 m-auto">
           <div class="row d-flex justify-content-center">
-              <div class="col-6 col-lg-4">
+              <div
+              class="col-6 col-lg-4"
+              data-aos="fade-down"
+              data-aos-duration="1500">
                 <div class="card">
                   <img src="https://picsum.photos/300/200/?random=1" class="card-img-top">
                   <div class="card-body">
@@ -21,7 +24,10 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-4">
+              <div
+              class="col-6 col-lg-4"
+              data-aos="fade-down"
+              data-aos-duration="1500">
                 <div class="card">
                   <img src="https://picsum.photos/300/200/?random=2" class="card-img-top">
                   <div class="card-body">
@@ -31,7 +37,10 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-4">
+              <div
+              class="col-6 col-lg-4"
+              data-aos="fade-down"
+              data-aos-duration="1500">
                 <div class="card">
                   <img src="https://picsum.photos/300/200/?random=3" class="card-img-top">
                   <div class="card-body">
@@ -40,7 +49,10 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-4">
+              <div
+              class="col-6 col-lg-4"
+              data-aos="fade-down"
+              data-aos-duration="1500">
                 <div class="card">
                   <img src="https://picsum.photos/300/200/?random=4" class="card-img-top">
                   <div class="card-body">
@@ -49,7 +61,10 @@
                   </div>
                 </div>
               </div>
-                <div class="col-6 col-lg-4">
+              <div
+              class="col-6 col-lg-4"
+              data-aos="fade-down"
+              data-aos-duration="1500">
                 <router-link to="/work">
                 <div class="card" style="background:url(https://images.unsplash.com/photo-1595364237783-18144c05cd79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80);">
                   <div class="card-body ml-2 mt-2">
@@ -59,7 +74,10 @@
                 </div>
                 </router-link>
               </div>
-              <div class="col-6 col-lg-4">
+              <div
+              class="col-6 col-lg-4"
+              data-aos="fade-down"
+              data-aos-duration="1500">
                 <div class="card">
                   <img src="https://picsum.photos/300/200/?random=5" class="card-img-top">
                   <div class="card-body">
@@ -68,7 +86,10 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-4">
+              <div
+              class="col-6 col-lg-4"
+              data-aos="fade-down"
+              data-aos-duration="1500">
                 <div class="card">
                   <img src="https://picsum.photos/300/200/?random=6" class="card-img-top">
                   <div class="card-body">
@@ -77,7 +98,10 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-4">
+              <div
+              class="col-6 col-lg-4"
+              data-aos="fade-down"
+              data-aos-duration="1500">
                 <div class="card">
                   <img src="https://picsum.photos/300/200/?random=8" class="card-img-top">
                   <div class="card-body">
@@ -86,7 +110,10 @@
                   </div>
               </div>
               </div>
-              <div class="col-6 col-lg-4">
+              <div
+              class="col-6 col-lg-4"
+              data-aos="fade-down"
+              data-aos-duration="1500">
                 <div class="card">
                   <img src="https://picsum.photos/300/200/?random=7" class="card-img-top">
                   <div class="card-body">
